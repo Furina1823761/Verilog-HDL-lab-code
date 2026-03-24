@@ -1,9 +1,9 @@
-module gate_xor(
+module gate_xnor(
 	input  a,
 	input  b,
 	output y
 );
 	
-assign y = (a & ~b) | (~a & b);
+assign y = (~a & ~b) | (a & b);
 	
 endmodule  
