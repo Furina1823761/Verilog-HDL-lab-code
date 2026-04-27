@@ -1,23 +1,28 @@
+`timescale 1ns/1ps
 module ram_tb();
-parameter BIT_WIDTH = 16;
-parameter ADDR_WIDTH = 8;
-parameter DEPTH = 1 << ADDR_WIDTH;
-wire [BIT_WIDTH-1:0] rData;
-reg [BIT_WIDTH-1:0] wData;
-reg clk;
-reg wEn, rEn;
-reg [ADDR_WIDTH-1:0] wAddr;
-reg [ADDR_WIDTH-1:0] rAddr;
+parameter 					BIT_WIDTH = 16;
+parameter 					ADDR_WIDTH = 8;
+parameter 					DEPTH = 1 << ADDR_WIDTH;
+wire 	[BIT_WIDTH-1:0] 	rData;
+reg 	[BIT_WIDTH-1:0] 	wData;
+reg 						clk;
+reg 						wEn, rEn;
+reg 	[ADDR_WIDTH-1:0] 	wAddr;
+reg 	[ADDR_WIDTH-1:0] 	rAddr;
 
-RAM RAM(
-	.wData(wData),
-	.rData(rData),
-	.wEn(wEn),
-	.rEn(rEn),
-	.wAddr(wAddr),
-	.rAddr(rAddr),
-	.clk(clk)
-	);
+RAM	#(
+	.ADDR_WIDTH	(ADDR_WIDTH),
+	.BIT_WIDTH	(BIT_WIDTH),
+	.DEPTH		(DEPTH)
+) u_RAM(
+	.wData	(wData),
+	.rData	(rData),
+	.wEn	(wEn  ),
+	.rEn	(rEn  ),
+	.wAddr	(wAddr),
+	.rAddr	(rAddr),
+	.clk	(clk  )
+);
 	
 initial begin
 	clk =0;
