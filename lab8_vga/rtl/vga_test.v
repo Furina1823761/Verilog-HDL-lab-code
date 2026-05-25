@@ -1,4 +1,4 @@
-module vga (
+module vga_test (
     input           clk     ,
     input           rst_n   ,
     output          hsync   ,  //行同步信号

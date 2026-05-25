@@ -20,7 +20,7 @@ initial begin
     #200
     sys_rst_n   <= 1'b1;
     #1000
-    // 发送数据 0x55 (LSB first: 1 0 1 0 1 0 1 0)
+    // 发送数据 0x55 (LSB first: 1 1 1 0 1 0 1 0)
     uart_rxd <= 1'b0;               // 起始位
     #BIT_DELAY;
     uart_rxd <= 1'b1;               // D0
