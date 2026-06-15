@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module vga_tb ();
+module vga_test_tb ();
 
 reg         clk;
 reg         rst_n;
@@ -9,7 +9,7 @@ wire [3:0]  vga_r,vga_g,vga_b;
 
 parameter   PERIED = 20;
     
-vga u_vga(
+vga_test u_vga_test(
     .clk    (clk  ),
     .rst_n  (rst_n),
     .hsync  (hsync),

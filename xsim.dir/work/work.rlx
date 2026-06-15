@@ -1,0 +1,21 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+d:/Verilog_HDL/code/lab6_ram/rtl/ram.v,1777283533,verilog,,,,RAM,,,,,,,,
+d:/Verilog_HDL/code/lab6_ram/sim/tb/ip_ram_tb.v,1777283041,verilog,,,,ip_ram_tb,,,,,,,,
+d:/Verilog_HDL/code/lab6_ram/sim/tb/ram_tb.v,1777282761,verilog,,,,ram_tb,,,,,,,,
+d:/Verilog_HDL/code/lab7_uart/rtl/uart_loopback.v,1778756688,verilog,,,,uart_loopback,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/parameters.v,1781077547,verilog,,,,,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/BRAM_ctrl.v,1781437739,verilog,,,,BRAM_ctrl,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/BRAM_o_ctrl.v,1781512887,verilog,,,d:/Verilog_HDL/code/lab9_nn_acceletor/parameters.v,BRAM_o_ctrl,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/ROM_ctrl.v,1781513222,verilog,,,,ROM_ctrl,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/clk_div.v,1778317014,verilog,,,,clk_div,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/send_ctrl.v,1781513388,verilog,,,,send_ctrl,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/top_send_test.v,1780919202,verilog,,,,top_send,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/uart_rx.v,1780921352,verilog,,,,uart_rx,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Peripheral/uart_tx.v,1780911860,verilog,,,,uart_tx,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Systolic Array/matrix_mul_core.sv,1780567296,systemVerilog,,,d:/Verilog_HDL/code/lab9_nn_acceletor/parameters.v,matrix_mul_core,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Systolic Array/shift_reg.sv,1780321400,systemVerilog,,,d:/Verilog_HDL/code/lab9_nn_acceletor/parameters.v,shift_reg,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/rtl/Systolic Array/shift_reg_array.sv,1780495861,systemVerilog,,,d:/Verilog_HDL/code/lab9_nn_acceletor/parameters.v,pe_array_in_shift_reg_array,,,,,,,,
+d:/Verilog_HDL/code/lab9_nn_acceletor/sim/tb_top_send.v,1780921690,verilog,,,,top_tb,,,,,,,,

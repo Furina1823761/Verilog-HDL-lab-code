@@ -86,8 +86,6 @@ assign vsync = (vcnt > V_SYNC - 1);
 /*****************vga 扫描输出信号**********/
 assign pix_x = de ? (hcnt - (H_SYNC + H_BACK)) : 10'h0;
 assign pix_y = de ? (vcnt - (V_SYNC + V_BACK)) : 10'h0;
-
-
 assign de  = hvalid && vvalid;
 // assign rgb = de ? {hcnt , vcnt} : 0 ;
 
